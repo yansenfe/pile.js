@@ -65,32 +65,244 @@ body{overflow: hidden;}
 
 
 <div class="container container-left">
-    <div class="row default-row">
-        <div id="mid-layout">
-    <div class="main-layout  single-page index-page" >
-        <div class="page-content-header">
-            <h1>移动端设计指南 & 前端框架</h1>
-        </div>
-        <div class="page-content-body post-content">
-            <div class="step-layout">
-                <dl class="github-list">
-                    <dd>设计、前端高效协同，快速搭建移动端组件库</dd>
-                    <dd><a href="https://yanshenshen.github.io/jimu-mobile/index.html#/?_k=kvpvx1" target="_blank">jimu-mobile</a></dd>
-                    <dd><img src="/images/qrcode.png" alt="jimu"></dd>
-                </dl>
-            </div>
-        </div>
-    </div>
+    <div class="row" id="container">
+        <div class="col-md-3 hidden-xs" id="asideNav">
+            <div class="sidebar nav-side design-side" id="sidebar">
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">设计准则 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        <li class="links" tag="latentrules"><a _href="/2017/08/design-rule-latentrules.html"><span>潜规则</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="clearsighted"><a _href="/2017/08/design-rule-clearsighted.html"><span>明规则</span></a></li>
+                    
+                
+            </ul>
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">设计风格 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        <li class="links" tag="text"><a _href="/2017/08/design-style-text.html"><span>文字</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="icon"><a _href="/2017/08/design-style-icon.html"><span>图标</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="figure"><a _href="/2017/08/design-style-figure.html"><span>商业插图</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="color"><a _href="/2017/08/design-style-color.html"><span>色彩</span></a></li>
+                    
+                
+            </ul>
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">控件 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        
+                            <li class="sec-nav">
+                                <dl>
+                                    <dt>填写类</dt>
+                                    <dd class="links" tag="inputitem"><a _href="/2017/08/design-components-input-inputitem.html"><span>输入框</span></a></dd>
+                                </dl>
+                            </li>
+                        
+                    
+                
+
+                    
+                        
+                            <li class="sec-nav">
+                                <dl>
+                                    <dt>点击类</dt>
+                                    <dd class="links" tag="button"><a _href="/2017/08/design-components-click-button.html"><span>按钮</span></a></dd>
+                                </dl>
+                            </li>
+                        
+                    
+                
+            </ul>
+        
+    
 </div>
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12 footer navbar-inverse navbar-fixed-bottom">
-                    <p class="copyright">Copyright © 2017 滴滴企业版设计体验技术部联合出品</p>
+
+
+        </div>
+        <div class="col-md-9" id="mainContainer">
+          <div class="article" id="articleLayout">
+            <div class="well">
+                <div class="page-content-header">
+                    <h1>Icon<span>图标</span></h1>
+
+                    
+
+                    
+                        <a class="download" href="/images/temp/style.psd"><b></b> Sketch文件下载</a>
+                    
+
+                </div>
+            
+                
+            
+            <div class="post-content">
+            <div class="design-layout">
+    <h2>图标定义</h2>
+    <p class="mb-20">
+    图标是具有明确指代含义的计算机图形。其中桌面图标是软件标识，界面中的图标是功能标识。它源自于生活中的各种图形标识，是计算机应用图形化的重要组成部分。
+    </p>
+    <dl class="intr-dl">
+        <dt>命名</dt>
+        <dd>图标遵循统一命名规则，即 类型_位置_名称</dd>
+        <dd>例：ico_nav_time</dd>
+    </dl>
+
+    <dl class="intr-dl">
+        <dt>适用范围</dt>
+        <dd>内容表意单一，且需要被强调／区分／解释／缩略 </dd>
+    </dl>
+
+
+    <dl class="intr-dl">
+        <dt>使用限制</dt>
+        <dd>保持简洁：减少复杂元素的出现。可用圆、矩形等基础元素进行绘制</dd>
+        <dd>品牌个性：准确直观的表达品牌设计理念和表意</dd>
+        <dd>应用发展：具备识别性、统一性、扩展性</dd>
+        <dd>创造喜悦：对图形的定义附有创意，能够感知到设计细节</dd>
+    </dl>
+
+    <dl class="intr-dl">
+        <dt>比例</dt>
+        <dd>关键形状是网格的基础。通过使用这些核心形状为指导，你可以保持整个相关产品的图标一致的视觉比例</dd>
+    </dl>
+
+    <div class="pic-layout mb-20">
+        <img src="/images/design/icon-1@2x.png" width="502" height="464" />
+    </div>
+
+
+    <dl class="intr-dl">
+        <dt>尺寸</dt>
+        <dd>系统图标以16px为基础。当创建图标时，按100% 比例来设计，精确到像素</dd>
+        <dd>图标的大小应保持在有效区域内。如果需要额外的视觉考量也应不越过修剪区域</dd>
+    </dl>
+
+    <div class="pic-layout mb-20">
+        <img src="/images/design/icon-2@2x.png" width="564" height="488" />
+    </div>
+
+    <dl class="intr-dl">
+        <dt>边角</dt>
+        <dd>一致的圆角半径是一套系统图标的关键。结合滴滴品牌和logo特性，以0px和1px圆角的组合，图形上半部分统一使用0px圆角，图形下半部分统一使用1px圆角</dd>
+        <dd>线的粗细统一为1px。分割区域不做圆角修饰，封闭图形须有切口，切口宽度统一为2px，切口角度为垂直90°或者倾斜45°，在遵守设计原则的基础上，以视觉的最优化微调设计原则</dd>
+    </dl>
+
+    <div class="pic-layout mb-20">
+        <img src="/images/design/icon-3@2x.png" width="777" height="536" />
+    </div>
+
+    <dl class="intr-dl">
+        <dt>调和</dt>
+        <dd>一致性有助于用户加强对品牌的印象</dd>
+    </dl>
+
+    <div class="pic-layout mb-20">
+        <img src="/images/design/icon-4@2x.png" width="579" height="488" />
+    </div>
+
+    <dl class="intr-dl">
+        <dt>调和</dt>
+        <dd>有新增图标需求，首先寻找常用图标集中是否已存在</dd>
+        <dd>图标新增，按流程进行</dd>
+        <dd>严格执行图标绘制方法</dd>
+        <dd>如遇紧急情况，来不急提交评审流程，可先行使用，后续评审并替换为评审后的内容</dd>
+        <dd>评审人：李海威、韩少鹏</dd>
+    </dl>
+
+    <div class="pic-layout mb-20">
+        <img src="/images/design/icon-5@2x.png" width="953" height="310" />
+    </div>
+
+
+</div>
+
+            </div>
+            
+                
+            
+            </div>
+          </div>
+          <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+                        <p class="copyright">Copyright © 2017 滴滴企业版设计体验技术部联合出品</p>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
+
+
 
 
 

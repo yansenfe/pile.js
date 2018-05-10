@@ -65,32 +65,228 @@ body{overflow: hidden;}
 
 
 <div class="container container-left">
-    <div class="row default-row">
-        <div id="mid-layout">
-    <div class="main-layout  single-page index-page" >
-        <div class="page-content-header">
-            <h1>移动端设计指南 & 前端框架</h1>
+    <div class="row" id="container">
+        <div class="col-md-3 hidden-xs" id="asideNav">
+            <div class="sidebar nav-side design-side" id="sidebar">
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">设计准则 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        <li class="links" tag="latentrules"><a _href="/2017/08/design-rule-latentrules.html"><span>潜规则</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="clearsighted"><a _href="/2017/08/design-rule-clearsighted.html"><span>明规则</span></a></li>
+                    
+                
+            </ul>
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">设计风格 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        <li class="links" tag="text"><a _href="/2017/08/design-style-text.html"><span>文字</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="icon"><a _href="/2017/08/design-style-icon.html"><span>图标</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="figure"><a _href="/2017/08/design-style-figure.html"><span>商业插图</span></a></li>
+                    
+                
+
+                    
+                        <li class="links" tag="color"><a _href="/2017/08/design-style-color.html"><span>色彩</span></a></li>
+                    
+                
+            </ul>
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+    
+        <!-- 
+         
+
+        || category.first == "设计风格" || category.first == "框架布局" || category.first == "组件" 
+
+        -->
+        
+        
+            <h2 class="un-links">控件 <span class="col"><i></i><b></b></span></h2>
+            <ul class="arc-list design-list">
+                
+
+                    
+                        
+                            <li class="sec-nav">
+                                <dl>
+                                    <dt>填写类</dt>
+                                    <dd class="links" tag="inputitem"><a _href="/2017/08/design-components-input-inputitem.html"><span>输入框</span></a></dd>
+                                </dl>
+                            </li>
+                        
+                    
+                
+
+                    
+                        
+                            <li class="sec-nav">
+                                <dl>
+                                    <dt>点击类</dt>
+                                    <dd class="links" tag="button"><a _href="/2017/08/design-components-click-button.html"><span>按钮</span></a></dd>
+                                </dl>
+                            </li>
+                        
+                    
+                
+            </ul>
+        
+    
+</div>
+
+
         </div>
-        <div class="page-content-body post-content">
-            <div class="step-layout">
-                <dl class="github-list">
-                    <dd>设计、前端高效协同，快速搭建移动端组件库</dd>
-                    <dd><a href="https://yanshenshen.github.io/jimu-mobile/index.html#/?_k=kvpvx1" target="_blank">jimu-mobile</a></dd>
-                    <dd><img src="/images/qrcode.png" alt="jimu"></dd>
-                </dl>
-            </div>
+        <div class="col-md-9" id="mainContainer">
+          <div class="article" id="articleLayout">
+            <div class="well">
+                <div class="page-content-header">
+                    <h1>Button<span>按钮</span></h1>
+
+                    
+
+                    
+                        <a class="download" href="/images/temp/button.psd"><b></b> Sketch文件下载</a>
+                    
+
+                </div>
+            
+                
+            
+            <div class="post-content">
+            <h2 id="定义">定义</h2>
+<p>需用户通过键盘输入内容的一种控件。</p>
+
+<div class="design-layout">
+    <div class="design-hd">
+        <h2 class="title">视觉样式</h2>
+    </div>
+    <div class="design-bd">
+        <div class="aside-img">
+            <img src="/images/design/button_gui1@2x.png" />
+        </div>
+        <div class="content-main">
+            <ul class="intr-item">
+                <li>
+                    <span class="title-name">尺寸：</span>
+                    <p>高度不变，宽度可根据实际设计而变化。若变长，A值最大=自定义；若变短，A值最小 =30px</p>
+                </li>
+                <li>
+                    <span class="title-name">样式：</span>
+                    <p>文字按钮</p>
+                </li>
+            </ul>
+            <p class="link-all-style"><a href="javascript:;">查看所有样式</a></p>
         </div>
     </div>
 </div>
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12 footer navbar-inverse navbar-fixed-bottom">
-                    <p class="copyright">Copyright © 2017 滴滴企业版设计体验技术部联合出品</p>
+
+<div class="design-layout">
+    <div class="design-hd">
+        <h2 class="title">交互原则</h2>
+    </div>
+    <div class="design-bd">
+        <div class="aside-img">
+            <img src="/images/design-principle.png" />
+        </div>
+        <div class="content-main">
+            <ul class="intr-item">
+                <li>
+                    <span class="title-name">交互：</span>
+                    <p>默认（normal）、悬停（hover）、点击（press）、不可用（disable）、加载中（loading）</p>
+                </li>
+                <li>
+                    <span class="title-name">适用：</span>
+                    <p>用以开始一个即时操作</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="design-layout">
+    <div class="design-hd">
+        <h2 class="title">案例展示</h2>
+    </div>
+    <div class="design-bd">
+        <div class="aside-img">
+            <img src="/images/design/button_gui2@2x.png" />
+        </div>
+        <div class="content-main">
+            <p>按钮一般需要和页面内容一起呈现才有意义</p>
+        </div>
+    </div>
+</div>
+
+            </div>
+            
+                
+            
+            </div>
+          </div>
+          <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+                        <p class="copyright">Copyright © 2017 滴滴企业版设计体验技术部联合出品</p>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
+
+
 
 
 
